@@ -24,7 +24,8 @@ section {
 
 .hero {
     background-color: #394a51;
-    height: 100vh;
+    min-height: 100vh;
+    /* max-height: 100%; */
     /* width: 50vw; */
     color: white;
     font-size: 40px;
@@ -48,6 +49,10 @@ ul {
     width: 500px;
     justify-content: space-around;
     font-size: 30px;
+}
+
+ul.show {
+    display: block;
 }
 
 li {
@@ -84,6 +89,7 @@ p {
 
 .hero-text {
     margin-left: 30px;
+    margin-top: 200px;
 }
 
 .button {
@@ -197,13 +203,33 @@ a {
     .hamburger {
         display: block;
         border: 0;
+        margin: 20px;
         background-color: transparent;
         color: #ffffff;
-        font-size: 30px;
+        font-size: 40px;
         cursor: pointer;
+        align-self: flex-end;
     }
 
     ul {
         display: none;
+        background-color: #465a63;
+    }
+
+    li {
+        margin: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #465a63;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        margin: 20px;
+        align-self: flex-end;
     }
 }
