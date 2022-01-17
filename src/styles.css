@@ -61,6 +61,12 @@ li {
     text-decoration: none;
 }
 
+li a:hover {
+    text-decoration: none;
+    color:rgb(41, 169, 255);
+    font-weight: bold;
+}
+
 h1 {
     font-size: 90px;
     margin: 0;
@@ -105,8 +111,9 @@ p {
 }
 
 .button:hover {
-    background-color: #7fa99b;
-    border: solid #fdc57b 1px;
+    /* background-color: #7fa99b; */
+    /* border: solid #fdc57b 1px; */
+    background-color: rgb(41, 169, 255);
 }
 
 .button:active {
@@ -122,6 +129,12 @@ p {
 .social {
     margin: 20px;
     display:block;
+}
+
+.social:hover {
+    /* border: solid rgb(101, 144, 224) 5px; */
+    border-radius: 10px;
+    background-color: rgb(41, 169, 255);
 }
 
 .logo {
@@ -195,6 +208,12 @@ a {
     color: #ffffff;
 }
 
+a:hover {
+    /* text-decoration: underline; */
+    color: rgb(41, 169, 255);
+    font-weight: bold;
+}
+
 .hamburger {
     display: none;
 }
@@ -218,6 +237,11 @@ a {
 
     li {
         margin: 10px;
+    }
+
+    li a:hover {
+        text-decoration: none;
+        color:rgb(41, 169, 255);
     }
 
     nav {
