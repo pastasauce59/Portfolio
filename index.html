@@ -89,7 +89,21 @@
         </section>
         <footer id='contact'>
             <h2>Contact me</h2>
-            <p>mikeprimo91@gmail.com</p>
+            <!-- <p>mikeprimo91@gmail.com</p> -->
+
+            <!-- <p><a href='thankyou.html'>TY PAGE TEST</a></p> -->
+
+
+            <form class='contact-form' action="https://formsubmit.co/mikeprimo91@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="thankyou.html">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type='email' name='email' placeholder='Email Address' required>
+                <!-- <input type="text" name="message" placeholder='Write your message here' required> -->
+                <textarea name="message" placeholder='Write your message here' required></textarea>
+                <button class='button' type="submit">Send</button>
+           </form>
         </footer>
 
         <script src='src/app.js'></script>

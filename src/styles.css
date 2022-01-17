@@ -257,3 +257,33 @@ a:hover {
         align-self: flex-end;
     }
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border: solid black 1px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px;
+}
+
+.contact-form input {
+    height: 50px;
+    width: 400px;
+}
+
+.contact-form textarea {
+    height: 50px;
+    width: 402px;
+}
+
+/* thankyou.html page styling below */
+
+.thanks {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
