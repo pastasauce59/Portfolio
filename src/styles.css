@@ -222,7 +222,7 @@ a:hover {
     .hamburger {
         display: block;
         border: 0;
-        margin: 20px;
+        margin: 10px;
         background-color: transparent;
         color: #ffffff;
         font-size: 40px;
@@ -253,7 +253,7 @@ a:hover {
     .logo {
         height: 50px;
         width: 50px;
-        margin: 20px;
+        /* margin: 20px; */
         align-self: flex-end;
     }
 }
