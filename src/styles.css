@@ -247,7 +247,7 @@ a:hover {
 
     nav {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         background-color: #465a63;
     }
 
