@@ -2,6 +2,7 @@ let hamburgerButton = document.getElementById('hamburger')
 let navList =  document.getElementById('nav-list')
 let aboutMeButton = document.getElementById('aboutMeButton')
 
+
 let showNavList = () => {
     navList.classList.toggle('show')
 }
