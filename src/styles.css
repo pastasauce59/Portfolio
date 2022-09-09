@@ -15,6 +15,11 @@ section {
     padding: 80px;
 }
 
+.technologies {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
 .sub-section-alt {
     display: flex;
     flex-direction: column;
